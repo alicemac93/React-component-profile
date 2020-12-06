@@ -1,0 +1,20 @@
+
+.component {
+  margin: 0 auto;
+  display: flexbox;
+  background-color: white;
+  background-image: url(/Users/alicemaciejewska/Desktop/Projects/frontend_mentor/profile-card-component-main/profile-card/src/images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  width: 25%;
+  border-radius: 12.5px;
+  height: 350px;
+  margin-top: 12%;
+  justify-content: center;
+}
+
+.bottom{
+  display: inline-flex;
+  align-items: flex-end;
+}
