@@ -1,7 +1,7 @@
 import React from "react";
 import Person from "../../PersonalInfo";
 import Stats from "../Stats/Stats";
-import image from "/Users/alicemaciejewska/Desktop/Projects/frontend_mentor/profile-card-component-main/profile-card/src/images/image-victor.jpg"
+import image from "/Users/alicemaciejewska/Desktop/Projects/frontend_mentor/profile-card-component-main/profile-card/src/image-victor.jpg"
 import './App.css';
 
 

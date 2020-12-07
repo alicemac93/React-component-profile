@@ -11,23 +11,18 @@ body:before {
   position: absolute;
   top: -120%;
   left: -20%;
-  height: 40vw;
-  width: auto;
-  z-index: -2;
-}
-body:after{
-  content: url(/Users/alicemaciejewska/Desktop/Projects/frontend_mentor/profile-card-component-main/profile-card/src/images/bg-pattern-bottom.svg);
-  position: absolute;
-  bottom: -160%;
-  right: -20%;
-  height: 40vw;
+  max-height: 100%;
   width: auto;
   z-index: -2;
 }
 
-@media screen and (max-width: 375px){
-  body:before, 
-  body:after{
-    max-width: 100%;
-  }
+body:after{
+  content: url(/Users/alicemaciejewska/Desktop/Projects/frontend_mentor/profile-card-component-main/profile-card/src/images/bg-pattern-bottom.svg);
+  position: absolute;
+  bottom: -100%;
+  right: -20%;
+  max-height: 100%;
+  width: auto;
+  z-index: -2;
 }
+
