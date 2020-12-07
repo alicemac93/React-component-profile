@@ -1,13 +1,20 @@
+import React from "react";
+import "./Stats.css"
 
 function Stats(props){
-    return (
-        <div>
-            <p>{props.statsName}</p>
-            <p>{props.statNumber}</p>
-        </div>
-        )
+    const statsList = props.stats.map((stat, i) => 
+    <ul key={i}>
+       <li className="statNumber">{stat[1]}</li>
+       <li className="statName">{stat[0]}</li> 
+    </ul>
+    )
+return (
+    <div className="statsList">{statsList}</div>
+    )
+
 }
 
 export default Stats;
 
-//  {items.map((item, index) => (
+// const statName = Object.keys(stats);
+// const values = Object.values(stats);

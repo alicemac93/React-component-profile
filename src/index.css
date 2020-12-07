@@ -1,8 +1,33 @@
 body {
   background-color: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  overflow: hidden;
+  position: relative;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body:before {
+  content: url(/Users/alicemaciejewska/Desktop/Projects/frontend_mentor/profile-card-component-main/profile-card/src/images/bg-pattern-top.svg);
+  position: absolute;
+  top: -120%;
+  left: -20%;
+  height: 40vw;
+  width: auto;
+  z-index: -2;
+}
+body:after{
+  content: url(/Users/alicemaciejewska/Desktop/Projects/frontend_mentor/profile-card-component-main/profile-card/src/images/bg-pattern-bottom.svg);
+  position: absolute;
+  bottom: -160%;
+  right: -20%;
+  height: 40vw;
+  width: auto;
+  z-index: -2;
+}
+
+@media screen and (max-width: 375px){
+  body:before, 
+  body:after{
+    max-width: 100%;
+  }
 }

@@ -1,0 +1,28 @@
+li {
+    list-style-type: none;
+}
+
+.statsList{
+    width: 100%;
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: center;
+}
+
+ul{
+    text-align: center;
+    padding: 7%;
+    margin: 0;
+}
+
+.statNumber{
+    font-weight: 700;
+    padding: 3% 0;
+    font-size: 19px;
+}
+
+.statName{
+    font-size: 12px;
+    padding-top: 8%;
+    color: grey;
+}

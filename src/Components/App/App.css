@@ -1,20 +1,51 @@
 
 .component {
-  margin: 0 auto;
-  display: flexbox;
   background-color: white;
   background-image: url(/Users/alicemaciejewska/Desktop/Projects/frontend_mentor/profile-card-component-main/profile-card/src/images/bg-pattern-card.svg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
-  width: 25%;
+  width: 350px;
   border-radius: 12.5px;
-  height: 350px;
-  margin-top: 12%;
+  height: 380px;
+  box-shadow: 0px 0px 100px 3px black;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  top: 200px;
+}
+
+.middle {
+  padding: 25% 0 3%;
+  display: inline;
+  width: 100%;
+  text-align: center;
 }
 
 .bottom{
-  display: inline-flex;
-  align-items: flex-end;
+  border-top: 0.5px solid lightgrey;
+  width: 100%;
+}
+
+.avatar{
+  position: relative;
+  top: 80px;
+  border-radius: 50%;
+  height: 90px;
+  width: auto;
+  border: 5px solid white;
+  margin: 0 auto;
+}
+
+.age{
+  padding-left: 8px;
+  color: grey;
+}
+
+.location{
+  color: grey;
+  font-size: 15px;
 }
